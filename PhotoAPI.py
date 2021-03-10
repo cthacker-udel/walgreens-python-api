@@ -44,7 +44,7 @@ class PhotoAPI:
                             "transaction": transaction}
             url = PhotoEndpoints.fetch_credentials_sandbox_url
             response = requests.post(url,json=self.headers).json()
-            return response['sasKeyToken']
+            return response['cloud'][0]['sasKeyToken']
     def generate_photo_upload_url(self,sas_key_token="GeneratedFromAboveMethod"):
         split_sas_key_token = sas_key_token.split('?')
         blobContainer = split_sas_key_token[0]
@@ -65,5 +65,5 @@ class PhotoAPI:
 
 
 if __name__ == '__main__':
-    photoApi = PhotoAPI()
+    photoApi = PhotoAPI('LV04IoqmGg0PiydbYxs4o7QYBaqFikwJ','photoapi')
     photoApi.fetch_upload_credentials()
