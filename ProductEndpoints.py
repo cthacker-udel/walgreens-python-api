@@ -1,0 +1,1 @@
+sandbox_url = "https://services-qa.walgreens.com/api/photo/products/v3"
