@@ -65,5 +65,5 @@ class PhotoAPI:
 
 
 if __name__ == '__main__':
-    photoApi = PhotoAPI('LV04IoqmGg0PiydbYxs4o7QYBaqFikwJ','photoapi')
+    photoApi = PhotoAPI('exampleAPIKEY','photoapi')
     photoApi.fetch_upload_credentials()

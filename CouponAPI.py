@@ -34,5 +34,5 @@ class CouponAPI:
 
 
 if __name__ == '__main__':
-    couponApi = CouponAPI('LV04IoqmGg0PiydbYxs4o7QYBaqFikwJ','storesapi','TESTFORALL','#.#','###.##3','info',{'productId': '00000011'},'info','1')
+    couponApi = CouponAPI('exampleAPIKEY','storesapi','TESTFORALL','#.#','###.##3','info',{'productId': '00000011'},'info','1')
     couponApi.validate_coupon()

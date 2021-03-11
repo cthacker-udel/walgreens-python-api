@@ -19,7 +19,5 @@ class ProductAPI:
 
 
 
-
-
 if __name__ == '__main__':
-    productAPI = ProductAPI('LV04IoqmGg0PiydbYxs4o7QYBaqFikwJ')
+    productAPI = ProductAPI('exampleAPIKEY','rxapi')
