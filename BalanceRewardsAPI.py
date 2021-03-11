@@ -106,5 +106,5 @@ class BalanceRewardsAPI:
 
 
 if __name__ == '__main__':
-    api_class = BalanceRewardsAPI('LV04IoqmGg0PiydbYxs4o7QYBaqFikwJ', 'brctest')
+    api_class = BalanceRewardsAPI('exampleAPIKEY', 'brctest')
     api_class.request_authorization_code('code', 'steps', 'YOUR_REDIRECT_URI', '1', '1234567890123456', 'abcd1234xyz')
